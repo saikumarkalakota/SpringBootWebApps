@@ -14,14 +14,14 @@ Eg: Spring MVC application needs a Servlet Container so SB automatically configu
 Is Thymeleaf on the classpath (cp). If yes, then there are few beans that must be added to our application context which are added by SB.
 
 Application Context (Interface)
-Application Context is Spring's advanced container.Just like BeanFactory interface, it can 
-a. load bean definitions
-b. wire beans together
-c. dispense beans upon request
+Application Context is Spring's advanced container.Just like BeanFactory interface, it can \n
+a. load bean definitions \n
+b. wire beans together \n
+c. dispense beans upon request \n
 
-Application Context includes all functionalities of the BeanFactory & is kind of superset for BeanFactory. BeanFactory can still be used for lightweight applications like Mobile devices or applet-based applications.
+Application Context includes all functionalities of the BeanFactory & is kind of superset for BeanFactory. BeanFactory can still be used for lightweight applications like Mobile devices or applet-based applications. \n
 .
-Most commonly used Application Context implementations are
-1.FileSystemXMLApplicationContext : This Container loads definitions of the beans from the provided XML bean Configuration file (full path to be provided) to the constructor.
-2.ClassPathXMLApplicationContext: This Container loads definitions of the beans from an XML file (Container picks the file from ClassPath)
-3.WebXMLApplicationContext: This Container loads the XML file itself which has all Bean definitions.
+Most commonly used Application Context implementations are \n
+1.FileSystemXMLApplicationContext : This Container loads definitions of the beans from the provided XML bean Configuration file (full path to be provided) to the constructor. \n
+2.ClassPathXMLApplicationContext: This Container loads definitions of the beans from an XML file (Container picks the file from ClassPath) \n
+3.WebXMLApplicationContext: This Container loads the XML file itself which has all Bean definitions. \n

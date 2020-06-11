@@ -1,5 +1,5 @@
 # SpringBootWebApps
-This is a very basic REST (REpresentational State Transfer) API (HTTP methods: GET) built using Spring Boot (SB) Java framework.
+This is a very basic REST (REpresentational State Transfer) API (HTTP methods: GET) built using Java Spring Boot (SB)  framework.
 
 Spring Boot (SB) offers a quick way to build applications.
 It looks at classpath & at the beans that Developer configured, makes reasonable assumptions about what we are missing & adds those items.
